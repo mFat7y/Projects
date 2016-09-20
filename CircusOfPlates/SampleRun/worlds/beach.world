@@ -1,0 +1,12 @@
+shapes_count = 3
+shape_1 = worlds/beach.shape
+shape_2 = worlds/beach1.shape
+shape_3 = worlds/beach2.shape
+difficulty = 1
+delay_factor = 2
+shape_speed = 2
+name = beach world
+source_shape = worlds/beach.source
+icon = res/beach_icon.png
+background = res/beach_background.png
+player = res/dolphin1_player.png

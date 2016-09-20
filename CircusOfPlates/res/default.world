@@ -1,0 +1,10 @@
+shapes_count = 1
+shape_1 = /default.shape
+difficulty = 2
+delay_factor = 1.5
+shape_speed = 3
+name = default world
+source_shape = /default.source
+icon = /default_icon.png
+background = /default_background.png
+player = /default_player.png
