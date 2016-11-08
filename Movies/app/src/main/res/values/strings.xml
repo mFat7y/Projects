@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="action_sort_pop">Most Popular</string>
+    <string name="action_sort_top">Top Rated</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="OPEN_WEATHER_MAP_API_KEY">8e8d3f9effda8ce61536a1ecfba91f88</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">94043</string>
+    <string name="sort">Sort by</string>
+    <string name="pref_sort_label_popularity">Popularity</string>
+    <string name="pref_sort_label_top">Top Rated</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+    <string name="action_share">Share</string>
+    <string name="action_map">Map Location</string>
+</resources>

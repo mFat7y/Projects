@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:id="@+id/trailer_button"
+        android:layout_weight="30"
+        android:adjustViewBounds="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:layout_weight="70"
+        android:orientation="vertical"
+        android:id="@+id/trailerTextview"/>
+
+</LinearLayout>
