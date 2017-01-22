@@ -2,18 +2,15 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:paddingLeft="16dp"
     android:paddingTop="5dp"
-    android:paddingBottom="5dp"
     android:id="@+id/scrollView"
     tools:context=".DetailActivity"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#eceff1">
+    android:layout_height="match_parent" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginRight="16dp"
         android:orientation="vertical">
 
         <TextView
@@ -21,9 +18,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
-            android:id="@+id/movieName"
-            android:textColor="@color/abc_input_method_navigation_guard"
-            android:textStyle="bold" />
+            android:id="@+id/movieName" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,22 +29,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/poster"
-                android:layout_weight="40"
+                android:layout_weight="30"
                 android:adjustViewBounds="true"/>
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_weight="60"
+                android:layout_weight="70"
                 android:paddingLeft="30dp"
                 >
 
                 <Button
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@drawable/select_like"
-                    android:id="@+id/likeButton" />
+                    android:background="@drawable/select_like"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -58,8 +52,7 @@
                     android:text="Rating"
                     android:id="@+id/ratingTitle"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:textColor="@color/abc_primary_text_disable_only_material_light" />
+                    android:layout_alignParentStart="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -67,7 +60,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Small Text"
                     android:id="@+id/ratingText"
-                    android:textColor="@color/abc_primary_text_disable_only_material_light" />
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -76,7 +69,7 @@
                     android:text="Release Date"
                     android:id="@+id/dateTitle"
                     android:layout_marginTop="30dp"
-                    android:textColor="@color/abc_primary_text_disable_only_material_light" />
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -84,7 +77,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Small Text"
                     android:id="@+id/dateText"
-                    android:textColor="@color/abc_primary_text_disable_only_material_light" />
+                    />
             </LinearLayout>
         </LinearLayout>
 
@@ -97,9 +90,7 @@
             android:layout_below="@+id/poster"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="9dp"
-            android:textColor="@color/abc_primary_text_disable_only_material_light"
-            android:textStyle="bold" />
+            android:layout_marginTop="9dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -108,25 +99,22 @@
             android:text="Small Text"
             android:id="@+id/overviewText"
             android:layout_marginTop="10dp"
-            android:textColor="@color/abc_primary_text_disable_only_material_light" />
+             />
 
         <TextView
             android:paddingTop="24dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Trailers"
-            android:textColor="@color/abc_primary_text_disable_only_material_light"
-            android:textStyle="bold" />
+            android:text="Trailers" />
 
 
-        <LinearLayout
-            android:orientation="vertical"
+        <GridView
             android:numColumns="1"
             android:stretchMode="columnWidth"
             android:layout_width="match_parent"
-            android:id="@+id/list_trailers"
-            android:layout_height="wrap_content"/>
+            android:id="@+id/grid_trailers"
+            android:layout_height="wrap_content"></GridView>
 
 
         <TextView
@@ -135,17 +123,15 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Reviews"
-            android:textColor="@color/abc_primary_text_disable_only_material_light"
-            android:textStyle="bold" />
+            />
         />
 
-        <LinearLayout
-            android:orientation="vertical"
+        <ListView
             android:paddingTop="16dp"
             android:layout_width="match_parent"
             android:stretchMode="columnWidth"
             android:layout_height="wrap_content"
-            android:id="@+id/list_reviews"/>
+            android:id="@+id/listView_detail"/>
         />
 
     </LinearLayout>
