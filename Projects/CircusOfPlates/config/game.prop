@@ -1,0 +1,21 @@
+#Defaults loaded
+#Thu Dec 24 04:52:33 EET 2015
+first_world=worlds/beach.world
+color_6=-7667712
+color_5=-10496
+wildshape_freq=11
+color_4=-65281
+color_3=-16751616
+color_2=-16728065
+color_1=-9807155
+second_world=worlds/jungle.world
+control_speed=10
+default_shape=/default.shape
+game_acceleration=0.0001
+game_speed=10
+dev_mode=0
+height=900
+width=1280
+colors_count=6
+default_world=/default.world
+third_world=worlds/circus.world
