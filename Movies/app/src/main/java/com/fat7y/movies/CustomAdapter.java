@@ -13,9 +13,6 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-/**
- * Created by user on 10/21/2016.
- */
 public class CustomAdapter extends ArrayAdapter<JSONObject> {
     private static final String LOG_TAG = CustomAdapter.class.getSimpleName();
     public static final String link = "http://image.tmdb.org/t/p/";
@@ -66,6 +63,5 @@ public class CustomAdapter extends ArrayAdapter<JSONObject> {
         catch (Exception e) {
             return null;
         }
-
     }
 }
