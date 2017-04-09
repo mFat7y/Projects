@@ -1,0 +1,846 @@
+﻿Merge branch 'master' of https://github.com/mFat7y/Projects
+
+# Conflicts:
+#	Movies/.idea/misc.xml
+#	Movies/app/src/main/AndroidManifest.xml
+#	Movies/app/src/main/java/com/fat7y/movies/CustomAdapter.java
+#	Movies/app/src/main/java/com/fat7y/movies/DetailActivity.java
+#	Movies/app/src/main/java/com/fat7y/movies/MainActivity.java
+#	Movies/app/src/main/java/com/fat7y/movies/MoviesFragment.java
+#	Movies/app/src/main/java/com/fat7y/movies/ReviewsAdapter.java
+#	Movies/app/src/main/java/com/fat7y/movies/TrailersAdapter.java
+#	Movies/app/src/main/res/drawable/select_like.xml
+#	Movies/app/src/main/res/layout/activity_movie.xml
+#	Movies/app/src/main/res/layout/fragment_detail.xml
+#	Movies/app/src/main/res/layout/fragment_main.xml
+#	Movies/app/src/main/res/layout/grid_item_trailer.xml
+#	Movies/app/src/main/res/menu/detail.xml
+#	Movies/app/src/main/res/menu/main.xml
+#	Movies/app/src/main/res/menu/moviesfragment.xml
+#	Movies/app/src/main/res/values/dimens.xml
+#	Movies/app/src/main/res/values/strings.xml
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 8 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   Movies.zip
+#	deleted:    Movies/.gitignore
+#	deleted:    Movies/.idea/.name
+#	deleted:    Movies/.idea/compiler.xml
+#	deleted:    Movies/.idea/copyright/profiles_settings.xml
+#	deleted:    Movies/.idea/encodings.xml
+#	deleted:    Movies/.idea/gradle.xml
+#	deleted:    Movies/.idea/misc.xml
+#	deleted:    Movies/.idea/modules.xml
+#	deleted:    Movies/.idea/runConfigurations.xml
+#	deleted:    Movies/.idea/vcs.xml
+#	deleted:    Movies/app/src/androidTest/java/com/fat7y/movies/ApplicationTest.java
+#	deleted:    Movies/app/src/main/AndroidManifest.xml
+#	deleted:    Movies/app/src/main/java/com/fat7y/movies/CustomAdapter.java
+#	deleted:    Movies/app/src/main/java/com/fat7y/movies/DetailActivity.java
+#	deleted:    Movies/app/src/main/java/com/fat7y/movies/MainActivity.java
+#	deleted:    Movies/app/src/main/java/com/fat7y/movies/MoviesFragment.java
+#	deleted:    Movies/app/src/main/java/com/fat7y/movies/ReviewsAdapter.java
+#	deleted:    Movies/app/src/main/java/com/fat7y/movies/TrailersAdapter.java
+#	deleted:    Movies/app/src/main/res/drawable-hdpi/like_selected.png
+#	deleted:    Movies/app/src/main/res/drawable-hdpi/like_unselected.png
+#	deleted:    Movies/app/src/main/res/drawable-mdpi/like_selected.png
+#	deleted:    Movies/app/src/main/res/drawable-mdpi/like_unselected.png
+#	deleted:    Movies/app/src/main/res/drawable-xhdpi/like_selected.png
+#	deleted:    Movies/app/src/main/res/drawable-xhdpi/like_unselected.png
+#	deleted:    Movies/app/src/main/res/drawable-xxhdpi/like_selected.png
+#	deleted:    Movies/app/src/main/res/drawable-xxhdpi/like_unselected.png
+#	deleted:    Movies/app/src/main/res/drawable/select_like.xml
+#	deleted:    Movies/app/src/main/res/layout/activity_movie.xml
+#	deleted:    Movies/app/src/main/res/layout/fragment_detail.xml
+#	deleted:    Movies/app/src/main/res/layout/fragment_main.xml
+#	deleted:    Movies/app/src/main/res/layout/grid_item_trailer.xml
+#	deleted:    Movies/app/src/main/res/layout/list_item_movies.xml
+#	deleted:    Movies/app/src/main/res/layout/list_item_reviews.xml
+#	deleted:    Movies/app/src/main/res/menu/detail.xml
+#	deleted:    Movies/app/src/main/res/menu/main.xml
+#	deleted:    Movies/app/src/main/res/menu/moviesfragment.xml
+#	deleted:    Movies/app/src/main/res/mipmap-hdpi/ic_launcher.png
+#	deleted:    Movies/app/src/main/res/mipmap-mdpi/ic_launcher.png
+#	deleted:    Movies/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+#	deleted:    Movies/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+#	deleted:    Movies/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+#	deleted:    Movies/app/src/main/res/values/arrays.xml
+#	deleted:    Movies/app/src/main/res/values/colors.xml
+#	deleted:    Movies/app/src/main/res/values/strings.xml
+#	deleted:    Movies/app/src/main/res/values/styles.xml
+#	deleted:    Movies/app/src/main/res/xml/pref_general.xml
+#	deleted:    Movies/app/src/test/java/com/fat7y/movies/ExampleUnitTest.java
+#	deleted:    Movies/gradle/wrapper/gradle-wrapper.jar
+#	new file:   Projects/CircusOfPlates/.classpath
+#	new file:   Projects/CircusOfPlates/.gitignore
+#	new file:   Projects/CircusOfPlates/.project
+#	new file:   Projects/CircusOfPlates/.settings/org.eclipse.jdt.core.prefs
+#	new file:   Projects/CircusOfPlates/Game_UML.ucls
+#	new file:   Projects/CircusOfPlates/SampleRun.rar
+#	new file:   Projects/CircusOfPlates/SampleRun/Game Report.docx
+#	new file:   Projects/CircusOfPlates/SampleRun/Game Report.pdf
+#	new file:   Projects/CircusOfPlates/SampleRun/config/game.prop
+#	new file:   Projects/CircusOfPlates/SampleRun/game.jar
+#	new file:   Projects/CircusOfPlates/SampleRun/res/beach1_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/beach2_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/beach_background.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/beach_icon.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/beach_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/beach_source.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/chair.jpg
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus1_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus2_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus_background.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus_icon.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus_player.gif
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus_player.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/circus_source.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/cup.jpg
+#	new file:   Projects/CircusOfPlates/SampleRun/res/dolphin1_player.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/dolphinRight.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/fish.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/grapes.jpg
+#	new file:   Projects/CircusOfPlates/SampleRun/res/insect1_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/insect2_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/insect_shape.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/jungle_background.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/jungle_icon.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/jungle_player.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/jungle_source.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/plate.png
+#	new file:   Projects/CircusOfPlates/SampleRun/res/spoon.png
+#	new file:   Projects/CircusOfPlates/SampleRun/shapes/powerup.jar
+#	new file:   Projects/CircusOfPlates/SampleRun/shapes/star.png
+#	new file:   Projects/CircusOfPlates/SampleRun/shapes/wild.jar
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/beach.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/beach.source
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/beach.world
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/beach1.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/beach2.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/circus.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/circus.source
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/circus.world
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/circus1.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/circus2.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/insec2.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/insect.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/insect1.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/insect2.shape
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/jungle.source
+#	new file:   Projects/CircusOfPlates/SampleRun/worlds/jungle.world
+#	new file:   Projects/CircusOfPlates/asdas.ucls
+#	new file:   Projects/CircusOfPlates/config/game.prop
+#	new file:   Projects/CircusOfPlates/lib/META-INF/MANIFEST.MF
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/AnimationPanel.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/ArrowsKeyAction.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/ConstantObject.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/ControlableObject.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/Direction.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameEngine$1.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameEngine.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameObject.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameObject.java
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/MovableObject.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/SpinTimerListener.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/World.class
+#	new file:   Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/World.java
+#	new file:   Projects/CircusOfPlates/lib/engine_v2.jar
+#	new file:   Projects/CircusOfPlates/lib/log4j-1.2.16.jar
+#	new file:   Projects/CircusOfPlates/log/testlog.log
+#	new file:   Projects/CircusOfPlates/log/testlog1.log
+#	new file:   Projects/CircusOfPlates/res/Log4j.properties
+#	new file:   Projects/CircusOfPlates/res/default.prop
+#	new file:   Projects/CircusOfPlates/res/default.shape
+#	new file:   Projects/CircusOfPlates/res/default.source
+#	new file:   Projects/CircusOfPlates/res/default.world
+#	new file:   Projects/CircusOfPlates/res/default_background.png
+#	new file:   Projects/CircusOfPlates/res/default_icon.png
+#	new file:   Projects/CircusOfPlates/res/default_player.png
+#	new file:   Projects/CircusOfPlates/res/default_shape.png
+#	new file:   Projects/CircusOfPlates/res/default_source.png
+#	new file:   Projects/CircusOfPlates/res/eg/edu/alexu/csd/oop/game/gfx/Assets.java
+#	new file:   Projects/CircusOfPlates/res/game.prop
+#	new file:   Projects/CircusOfPlates/shapes/powerup.jar
+#	new file:   Projects/CircusOfPlates/shapes/star.png
+#	new file:   Projects/CircusOfPlates/shapes/strategy.ucls
+#	new file:   Projects/CircusOfPlates/shapes/wild.jar
+#	new file:   Projects/CircusOfPlates/shapes/wildColored.jar
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/GameLogger.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/Launcher.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/GameConfigurations.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/PropertiesHandler.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/ShapeConfigurations.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/WorldConfigurations.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/Arm.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/Entity.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/Player.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/PlayerBuilder.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/PlayerMaker.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/PlayerStrategy.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/dynamicLinkage.ucls
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/factory.ucls
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/flyweight.ucls
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/iterator.ucls
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/DummyShape.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/NormalShape.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/Shape.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeFactory.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeFlyWeightFactory.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeInfo.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeIterator.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeList.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeLoader.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeStrategy.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/gfx/BackGround.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/gfx/ImageLoader.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/gfx/SpriteSheet.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/GameState.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/MenuState.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/State.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/StateManager.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/worlds/MyWorld.java
+#	new file:   Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/worlds/SnapShot.java
+#	new file:   Projects/CircusOfPlates/worlds/beach.world
+#	new file:   Projects/CircusOfPlates/worlds/circus.world
+#	new file:   Projects/CircusOfPlates/worlds/jungle.world
+#	new file:   Projects/File Structure/.classpath
+#	new file:   Projects/File Structure/.gitignore
+#	new file:   Projects/File Structure/.project
+#	new file:   Projects/File Structure/.settings/org.eclipse.jdt.core.prefs
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Avl.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Dictionary.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/IAVLTree.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/IDictionary.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/INode.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Main.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Node.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/Graph.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/IGraph.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/Main.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/in.txt
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/Element.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashChaining.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashDouble.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashLinear.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashQuadratic.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHash.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashChaining.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashDouble.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashLinearProbing.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashQuadraticProbing.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/Main.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Heap.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/IHeap.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/INode.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/ISort.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Main.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Node.java
+#	new file:   Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Sort.java
+#	new file:   Projects/JDBC/.classpath
+#	new file:   Projects/JDBC/.project
+#	new file:   Projects/JDBC/.settings/org.eclipse.jdt.core.prefs
+#	new file:   Projects/JDBC/bin/eg/edu/alexu/csd/oop/jdbc/MyResultSet.class
+#	new file:   Projects/JDBC/bin/eg/edu/alexu/csd/oop/jdbc/MyResultSetMetaData.class
+#	new file:   Projects/JDBC/src/eg/edu/alexu/csd/oop/jdbc/MyResultSet.java
+#	new file:   Projects/JDBC/src/eg/edu/alexu/csd/oop/jdbc/MyResultSetMetaData.java
+#	new file:   Projects/SFG/.classpath
+#	new file:   Projects/SFG/.project
+#	new file:   Projects/SFG/.settings/org.eclipse.jdt.core.prefs
+#	new file:   Projects/SFG/bin/GUI$EdgeGUI.class
+#	new file:   Projects/SFG/bin/GUI$EdgeWeight.class
+#	new file:   Projects/SFG/bin/GUI$MouseLs.class
+#	new file:   Projects/SFG/bin/GUI$MovableBlock$1.class
+#	new file:   Projects/SFG/bin/GUI$MovableBlock$2.class
+#	new file:   Projects/SFG/bin/GUI$MovableBlock.class
+#	new file:   Projects/SFG/bin/GUI$MyCanvas.class
+#	new file:   Projects/SFG/bin/GUI$NodeGUI.class
+#	new file:   Projects/SFG/bin/GUI.class
+#	new file:   Projects/SFG/bin/signalFlow/Edge.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$EdgeGUI.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$EdgeWeight.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$MouseLs.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$MovableBlock$1.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$MovableBlock$2.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$MovableBlock.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$MyCanvas.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI$NodeGUI.class
+#	new file:   Projects/SFG/bin/signalFlow/GUI.class
+#	new file:   Projects/SFG/bin/signalFlow/Main.class
+#	new file:   Projects/SFG/bin/signalFlow/Node.class
+#	new file:   Projects/SFG/bin/signalFlow/Solve.class
+#	new file:   Projects/SFG/src/GUI.java
+#	new file:   Projects/SFG/src/signalFlow/Edge.java
+#	new file:   Projects/SFG/src/signalFlow/GUI.java
+#	new file:   Projects/SFG/src/signalFlow/Main.java
+#	new file:   Projects/SFG/src/signalFlow/Node.java
+#	new file:   Projects/SFG/src/signalFlow/Solve.java
+#	new file:   Projects/Tabular_Project/.classpath
+#	new file:   Projects/Tabular_Project/.project
+#	new file:   Projects/Tabular_Project/.settings/org.eclipse.jdt.core.prefs
+#	new file:   Projects/Tabular_Project/bin/DLinkedList.class
+#	new file:   Projects/Tabular_Project/bin/DNode.class
+#	new file:   Projects/Tabular_Project/bin/End.class
+#	new file:   Projects/Tabular_Project/bin/MinTermFirst.class
+#	new file:   Projects/Tabular_Project/bin/MyLinkedList.class
+#	new file:   Projects/Tabular_Project/bin/SecondStepPrint$1.class
+#	new file:   Projects/Tabular_Project/bin/SecondStepPrint.class
+#	new file:   Projects/Tabular_Project/bin/entry$1.class
+#	new file:   Projects/Tabular_Project/bin/entry$2.class
+#	new file:   Projects/Tabular_Project/bin/entry$3.class
+#	new file:   Projects/Tabular_Project/bin/entry.class
+#	new file:   Projects/Tabular_Project/bin/print.class
+#	new file:   Projects/Tabular_Project/input.txt
+#	new file:   Projects/Tabular_Project/input.txt~
+#	new file:   Projects/Tabular_Project/output.txt
+#	new file:   Projects/Tabular_Project/src/DLinkedList.java
+#	new file:   Projects/Tabular_Project/src/DNode.java
+#	new file:   Projects/Tabular_Project/src/End.java
+#	new file:   Projects/Tabular_Project/src/MinTermFirst.java
+#	new file:   Projects/Tabular_Project/src/MyLinkedList.java
+#	new file:   Projects/Tabular_Project/src/SecondStepPrint.java
+#	new file:   Projects/Tabular_Project/src/entry.java
+#	new file:   Projects/Tabular_Project/src/print.java
+#	new file:   Projects/Vector Draw
+#	new file:   Sunshine-Version-2/.gitignore
+#	new file:   Sunshine-Version-2/LICENSE
+#	new file:   Sunshine-Version-2/README.md
+#	renamed:    Movies/app/.gitignore -> Sunshine-Version-2/app/.gitignore
+#	renamed:    Movies/app/build.gradle -> Sunshine-Version-2/app/build.gradle
+#	renamed:    Movies/app/proguard-rules.pro -> Sunshine-Version-2/app/proguard-rules.pro
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/FullTestSuite.java
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestDb.java
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUriMatcher.java
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUtilities.java
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestWeatherContract.java
+#	new file:   Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/utils/PollingCheck.java
+#	new file:   Sunshine-Version-2/app/src/main/AndroidManifest.xml
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/DetailActivity.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/DetailFragment.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/ForecastAdapter.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/MainActivity.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/SettingsActivity.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/Utility.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/data/WeatherContract.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/data/WeatherDbHelper.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineAuthenticator.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineAuthenticatorService.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineSyncAdapter.java
+#	new file:   Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineSyncService.java
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_cloudy.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_logo.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_cloudy.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_logo.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-v21/today_touch_selector.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-v21/touch_selector.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_cloudy.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_logo.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_clear.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_cloudy.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_fog.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_light_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_logo.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_rain.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_snow.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_storm.png
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable/today_touch_selector.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/drawable/touch_selector.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout-sw600dp/activity_main.xml
+#	renamed:    Movies/app/src/main/res/layout/activity_main.xml -> Sunshine-Version-2/app/src/main/res/layout/activity_detail.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout/activity_main.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout/fragment_detail.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout/fragment_detail_wide.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout/fragment_main.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout/list_item_forecast.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/layout/list_item_forecast_today.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/menu/detail.xml
+#	renamed:    Movies/app/src/main/res/menu/detailfragment.xml -> Sunshine-Version-2/app/src/main/res/menu/detailfragment.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/menu/forecastfragment.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/menu/main.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/mipmap-hdpi/ic_launcher.png
+#	new file:   Sunshine-Version-2/app/src/main/res/mipmap-mdpi/ic_launcher.png
+#	new file:   Sunshine-Version-2/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+#	new file:   Sunshine-Version-2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+#	new file:   Sunshine-Version-2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+#	new file:   Sunshine-Version-2/app/src/main/res/values-land/refs.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values-sw600dp/refs.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values-sw600dp/styles.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values-v14/styles.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values-v21/styles.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values/arrays.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values/colors.xml
+#	renamed:    Movies/app/src/main/res/values/dimens.xml -> Sunshine-Version-2/app/src/main/res/values/dimens.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values/strings.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/values/styles.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/xml/authenticator.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/xml/pref_general.xml
+#	new file:   Sunshine-Version-2/app/src/main/res/xml/syncadapter.xml
+#	renamed:    Movies/build.gradle -> Sunshine-Version-2/build.gradle
+#	renamed:    Movies/gradle.properties -> Sunshine-Version-2/gradle.properties
+#	new file:   Sunshine-Version-2/gradle/wrapper/gradle-wrapper.jar
+#	renamed:    Movies/gradle/wrapper/gradle-wrapper.properties -> Sunshine-Version-2/gradle/wrapper/gradle-wrapper.properties
+#	renamed:    Movies/gradlew -> Sunshine-Version-2/gradlew
+#	renamed:    Movies/gradlew.bat -> Sunshine-Version-2/gradlew.bat
+#	renamed:    Movies/settings.gradle -> Sunshine-Version-2/settings.gradle
+#	new file:   Sunshine/app/src/androidTest/java/com/fat7y/sunshine/data/TestProvider.java
+#	new file:   Sunshine/app/src/androidTest/java/com/fat7y/sunshine/data/TestUriMatcher.java
+#	new file:   Sunshine/app/src/androidTest/java/com/fat7y/sunshine/data/TestWeatherContract.java
+#	modified:   Sunshine/app/src/main/AndroidManifest.xml
+#	new file:   Sunshine/app/src/main/java/com/fat7y/sunshine/FetchWeatherTask.java
+#	modified:   Sunshine/app/src/main/java/com/fat7y/sunshine/ForecastFragment.java
+#	modified:   Sunshine/app/src/main/java/com/fat7y/sunshine/MainActivity.java
+#	modified:   Sunshine/app/src/main/java/com/fat7y/sunshine/data/WeatherContract.java
+#	new file:   Sunshine/app/src/main/java/com/fat7y/sunshine/data/WeatherProvider.java
+#	modified:   Sunshine/app/src/main/res/values/strings.xml
+#
+# Changes not staged for commit:
+#	deleted:    Movies.zip
+#	deleted:    Projects/CircusOfPlates/.classpath
+#	deleted:    Projects/CircusOfPlates/.gitignore
+#	deleted:    Projects/CircusOfPlates/.project
+#	deleted:    Projects/CircusOfPlates/.settings/org.eclipse.jdt.core.prefs
+#	deleted:    Projects/CircusOfPlates/Game_UML.ucls
+#	deleted:    Projects/CircusOfPlates/SampleRun.rar
+#	deleted:    Projects/CircusOfPlates/SampleRun/Game Report.docx
+#	deleted:    Projects/CircusOfPlates/SampleRun/Game Report.pdf
+#	deleted:    Projects/CircusOfPlates/SampleRun/config/game.prop
+#	deleted:    Projects/CircusOfPlates/SampleRun/game.jar
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/beach1_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/beach2_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/beach_background.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/beach_icon.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/beach_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/beach_source.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/chair.jpg
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus1_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus2_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus_background.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus_icon.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus_player.gif
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus_player.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/circus_source.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/cup.jpg
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/dolphin1_player.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/dolphinRight.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/fish.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/grapes.jpg
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/insect1_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/insect2_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/insect_shape.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/jungle_background.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/jungle_icon.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/jungle_player.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/jungle_source.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/plate.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/res/spoon.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/shapes/powerup.jar
+#	deleted:    Projects/CircusOfPlates/SampleRun/shapes/star.png
+#	deleted:    Projects/CircusOfPlates/SampleRun/shapes/wild.jar
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/beach.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/beach.source
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/beach.world
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/beach1.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/beach2.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/circus.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/circus.source
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/circus.world
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/circus1.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/circus2.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/insec2.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/insect.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/insect1.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/insect2.shape
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/jungle.source
+#	deleted:    Projects/CircusOfPlates/SampleRun/worlds/jungle.world
+#	deleted:    Projects/CircusOfPlates/asdas.ucls
+#	deleted:    Projects/CircusOfPlates/config/game.prop
+#	deleted:    Projects/CircusOfPlates/lib/META-INF/MANIFEST.MF
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/AnimationPanel.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/ArrowsKeyAction.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/ConstantObject.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/ControlableObject.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/Direction.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameEngine$1.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameEngine.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameObject.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/GameObject.java
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/MovableObject.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/SpinTimerListener.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/World.class
+#	deleted:    Projects/CircusOfPlates/lib/eg/edu/alexu/csd/oop/game/World.java
+#	deleted:    Projects/CircusOfPlates/lib/engine_v2.jar
+#	deleted:    Projects/CircusOfPlates/lib/log4j-1.2.16.jar
+#	deleted:    Projects/CircusOfPlates/log/testlog.log
+#	deleted:    Projects/CircusOfPlates/log/testlog1.log
+#	deleted:    Projects/CircusOfPlates/res/Log4j.properties
+#	deleted:    Projects/CircusOfPlates/res/default.prop
+#	deleted:    Projects/CircusOfPlates/res/default.shape
+#	deleted:    Projects/CircusOfPlates/res/default.source
+#	deleted:    Projects/CircusOfPlates/res/default.world
+#	deleted:    Projects/CircusOfPlates/res/default_background.png
+#	deleted:    Projects/CircusOfPlates/res/default_icon.png
+#	deleted:    Projects/CircusOfPlates/res/default_player.png
+#	deleted:    Projects/CircusOfPlates/res/default_shape.png
+#	deleted:    Projects/CircusOfPlates/res/default_source.png
+#	deleted:    Projects/CircusOfPlates/res/eg/edu/alexu/csd/oop/game/gfx/Assets.java
+#	deleted:    Projects/CircusOfPlates/res/game.prop
+#	deleted:    Projects/CircusOfPlates/shapes/powerup.jar
+#	deleted:    Projects/CircusOfPlates/shapes/star.png
+#	deleted:    Projects/CircusOfPlates/shapes/strategy.ucls
+#	deleted:    Projects/CircusOfPlates/shapes/wild.jar
+#	deleted:    Projects/CircusOfPlates/shapes/wildColored.jar
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/GameLogger.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/Launcher.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/GameConfigurations.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/PropertiesHandler.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/ShapeConfigurations.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/configurations/WorldConfigurations.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/Arm.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/Entity.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/Player.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/PlayerBuilder.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/PlayerMaker.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/PlayerStrategy.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/dynamicLinkage.ucls
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/factory.ucls
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/flyweight.ucls
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/iterator.ucls
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/DummyShape.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/NormalShape.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/Shape.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeFactory.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeFlyWeightFactory.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeInfo.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeIterator.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeList.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeLoader.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/entity/shape/ShapeStrategy.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/gfx/BackGround.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/gfx/ImageLoader.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/gfx/SpriteSheet.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/GameState.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/MenuState.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/State.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/state/StateManager.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/worlds/MyWorld.java
+#	deleted:    Projects/CircusOfPlates/src/eg/edu/alexu/csd/oop/game/worlds/SnapShot.java
+#	deleted:    Projects/CircusOfPlates/worlds/beach.world
+#	deleted:    Projects/CircusOfPlates/worlds/circus.world
+#	deleted:    Projects/CircusOfPlates/worlds/jungle.world
+#	deleted:    Projects/File Structure/.classpath
+#	deleted:    Projects/File Structure/.gitignore
+#	deleted:    Projects/File Structure/.project
+#	deleted:    Projects/File Structure/.settings/org.eclipse.jdt.core.prefs
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Avl.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Dictionary.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/IAVLTree.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/IDictionary.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/INode.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Main.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/avl/Node.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/Graph.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/IGraph.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/Main.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/graphs/in.txt
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/Element.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashChaining.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashDouble.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashLinear.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/HashQuadratic.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHash.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashChaining.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashDouble.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashLinearProbing.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/IHashQuadraticProbing.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/hash/Main.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Heap.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/IHeap.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/INode.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/ISort.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Main.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Node.java
+#	deleted:    Projects/File Structure/src/eg/edu/alexu/csd/filestructure/sort/Sort.java
+#	deleted:    Projects/JDBC/.classpath
+#	deleted:    Projects/JDBC/.project
+#	deleted:    Projects/JDBC/.settings/org.eclipse.jdt.core.prefs
+#	deleted:    Projects/JDBC/bin/eg/edu/alexu/csd/oop/jdbc/MyResultSet.class
+#	deleted:    Projects/JDBC/bin/eg/edu/alexu/csd/oop/jdbc/MyResultSetMetaData.class
+#	deleted:    Projects/JDBC/src/eg/edu/alexu/csd/oop/jdbc/MyResultSet.java
+#	deleted:    Projects/JDBC/src/eg/edu/alexu/csd/oop/jdbc/MyResultSetMetaData.java
+#	deleted:    Projects/SFG/.classpath
+#	deleted:    Projects/SFG/.project
+#	deleted:    Projects/SFG/.settings/org.eclipse.jdt.core.prefs
+#	deleted:    Projects/SFG/bin/GUI$EdgeGUI.class
+#	deleted:    Projects/SFG/bin/GUI$EdgeWeight.class
+#	deleted:    Projects/SFG/bin/GUI$MouseLs.class
+#	deleted:    Projects/SFG/bin/GUI$MovableBlock$1.class
+#	deleted:    Projects/SFG/bin/GUI$MovableBlock$2.class
+#	deleted:    Projects/SFG/bin/GUI$MovableBlock.class
+#	deleted:    Projects/SFG/bin/GUI$MyCanvas.class
+#	deleted:    Projects/SFG/bin/GUI$NodeGUI.class
+#	deleted:    Projects/SFG/bin/GUI.class
+#	deleted:    Projects/SFG/bin/signalFlow/Edge.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$EdgeGUI.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$EdgeWeight.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$MouseLs.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$MovableBlock$1.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$MovableBlock$2.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$MovableBlock.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$MyCanvas.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI$NodeGUI.class
+#	deleted:    Projects/SFG/bin/signalFlow/GUI.class
+#	deleted:    Projects/SFG/bin/signalFlow/Main.class
+#	deleted:    Projects/SFG/bin/signalFlow/Node.class
+#	deleted:    Projects/SFG/bin/signalFlow/Solve.class
+#	deleted:    Projects/SFG/src/GUI.java
+#	deleted:    Projects/SFG/src/signalFlow/Edge.java
+#	deleted:    Projects/SFG/src/signalFlow/GUI.java
+#	deleted:    Projects/SFG/src/signalFlow/Main.java
+#	deleted:    Projects/SFG/src/signalFlow/Node.java
+#	deleted:    Projects/SFG/src/signalFlow/Solve.java
+#	deleted:    Projects/Tabular_Project/.classpath
+#	deleted:    Projects/Tabular_Project/.project
+#	deleted:    Projects/Tabular_Project/.settings/org.eclipse.jdt.core.prefs
+#	deleted:    Projects/Tabular_Project/bin/DLinkedList.class
+#	deleted:    Projects/Tabular_Project/bin/DNode.class
+#	deleted:    Projects/Tabular_Project/bin/End.class
+#	deleted:    Projects/Tabular_Project/bin/MinTermFirst.class
+#	deleted:    Projects/Tabular_Project/bin/MyLinkedList.class
+#	deleted:    Projects/Tabular_Project/bin/SecondStepPrint$1.class
+#	deleted:    Projects/Tabular_Project/bin/SecondStepPrint.class
+#	deleted:    Projects/Tabular_Project/bin/entry$1.class
+#	deleted:    Projects/Tabular_Project/bin/entry$2.class
+#	deleted:    Projects/Tabular_Project/bin/entry$3.class
+#	deleted:    Projects/Tabular_Project/bin/entry.class
+#	deleted:    Projects/Tabular_Project/bin/print.class
+#	deleted:    Projects/Tabular_Project/input.txt
+#	deleted:    Projects/Tabular_Project/input.txt~
+#	deleted:    Projects/Tabular_Project/output.txt
+#	deleted:    Projects/Tabular_Project/src/DLinkedList.java
+#	deleted:    Projects/Tabular_Project/src/DNode.java
+#	deleted:    Projects/Tabular_Project/src/End.java
+#	deleted:    Projects/Tabular_Project/src/MinTermFirst.java
+#	deleted:    Projects/Tabular_Project/src/MyLinkedList.java
+#	deleted:    Projects/Tabular_Project/src/SecondStepPrint.java
+#	deleted:    Projects/Tabular_Project/src/entry.java
+#	deleted:    Projects/Tabular_Project/src/print.java
+#	deleted:    Projects/Vector Draw
+#	deleted:    Sunshine-Version-2/.gitignore
+#	deleted:    Sunshine-Version-2/LICENSE
+#	deleted:    Sunshine-Version-2/README.md
+#	deleted:    Sunshine-Version-2/app/.gitignore
+#	deleted:    Sunshine-Version-2/app/build.gradle
+#	deleted:    Sunshine-Version-2/app/proguard-rules.pro
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/FullTestSuite.java
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestDb.java
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUriMatcher.java
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUtilities.java
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestWeatherContract.java
+#	deleted:    Sunshine-Version-2/app/src/androidTest/java/com/example/android/sunshine/app/utils/PollingCheck.java
+#	deleted:    Sunshine-Version-2/app/src/main/AndroidManifest.xml
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/DetailActivity.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/DetailFragment.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/ForecastAdapter.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/MainActivity.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/SettingsActivity.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/Utility.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/data/WeatherContract.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/data/WeatherDbHelper.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineAuthenticator.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineAuthenticatorService.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineSyncAdapter.java
+#	deleted:    Sunshine-Version-2/app/src/main/java/com/example/android/sunshine/app/sync/SunshineSyncService.java
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/art_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_cloudy.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_logo.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-hdpi/ic_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/art_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_cloudy.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_logo.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-mdpi/ic_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-v21/today_touch_selector.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-v21/touch_selector.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/art_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_cloudy.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_logo.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xhdpi/ic_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/art_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_clear.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_cloudy.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_fog.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_light_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_logo.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_rain.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_snow.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable-xxhdpi/ic_storm.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable/today_touch_selector.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/drawable/touch_selector.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout-sw600dp/activity_main.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/activity_detail.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/activity_main.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/fragment_detail.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/fragment_detail_wide.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/fragment_main.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/list_item_forecast.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/layout/list_item_forecast_today.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/menu/detail.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/menu/detailfragment.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/menu/forecastfragment.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/menu/main.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/mipmap-hdpi/ic_launcher.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/mipmap-mdpi/ic_launcher.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+#	deleted:    Sunshine-Version-2/app/src/main/res/values-land/refs.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values-sw600dp/refs.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values-sw600dp/styles.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values-v14/styles.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values-v21/styles.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values/arrays.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values/colors.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values/dimens.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values/strings.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/values/styles.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/xml/authenticator.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/xml/pref_general.xml
+#	deleted:    Sunshine-Version-2/app/src/main/res/xml/syncadapter.xml
+#	deleted:    Sunshine-Version-2/build.gradle
+#	deleted:    Sunshine-Version-2/gradle.properties
+#	deleted:    Sunshine-Version-2/gradle/wrapper/gradle-wrapper.jar
+#	deleted:    Sunshine-Version-2/gradle/wrapper/gradle-wrapper.properties
+#	deleted:    Sunshine-Version-2/gradlew
+#	deleted:    Sunshine-Version-2/gradlew.bat
+#	deleted:    Sunshine-Version-2/settings.gradle
+#
+# Untracked files:
+#	CircusOfPlates/
+#	File Structure/
+#	JDBC/
+#	Projects/Movies/
+#	SFG/
+#	Tabular_Project/
+#
+
